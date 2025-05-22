@@ -11,7 +11,8 @@ ask before buy,
 ![VOL_TMETER.JPG](VOL_TMETER.JPG)  
 
 
-Nuvoton N76E003
+Nuvoton N76E003  
+深圳航顺 HK32F030MF4P6, same GPIO names  
 pin-pin compatible with STM8S003F3P6  
 
 ```
