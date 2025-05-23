@@ -1,7 +1,28 @@
 # STM8S003F3P6_V20D-3P-voltage_meter
-demo, MCU STM8S003F3P6, 3digit of 7-seg LED, adc demo, V20D demo
+demo, MCU STM8S003F3P6, 3digit of 7-seg LED, adc demo, V20D demo  
+STM8S103 STM8S003, 差別, 1半價格, EEPROM 容量差一倍, 其他一樣.  
 
-C code
+### firmware
+say "oh hi" to the world, likely "hello world", source code avaialble.  
+[firmware/V20D-3P_volt_meter_blink_oHi.hex](firmware/V20D-3P_volt_meter_blink_oHi.hex)  
+
+voltage meter, no source code
+[firmware/V20D-volt_meter_STM8S003F3_trimmed.s19](firmware/V20D-volt_meter_STM8S003F3_trimmed.s19)  
+
+### schematic
+[Stm8s-dev_schematic.pdf](Stm8s-dev_schematic.pdf)  
+![Stm8s-dev_schematic.jpg](Stm8s-dev_schematic.jpg)
+
+### testing result
+burn firmware to the chip, will see,  
+or compile the source code on your own,  
+![says_oh-hi.JPG](says_oh-hi.JPG)
+
+### old PCB design, how to add ICP for STLINK and programming the chip
+![add_ICP_headers.JPG](add_ICP_headers.JPG)
+
+
+C code, demo
 [stm8s003_volt_adc.c](stm8s003_volt_adc.c)  
 
 ![VD20-3P-STM8S003_LED_VOLT_METER.JPG](VD20-3P-STM8S003_LED_VOLT_METER.JPG)   
@@ -39,3 +60,11 @@ ARM M0 core
 
 原文链接：https://blog.csdn.net/weixin_41565556/article/details/114170025  
 ```
+
+
+REF:
+如果是STM8S的, 想自行改一下控制功能,  
+
+STM8S 的有開發工具, 說明合適給 STM8S103, 作者也明顯說明合適給 stm8s003, 用普通的 ARDUINO 就可以  
+
+https://tenbaht.github.io/sduino/hardware/stm8s003/  
