@@ -4,10 +4,10 @@ STM8S103 STM8S003, 差別, 1半價格, EEPROM 容量差一倍, 其他一樣.
 
 ### firmware
 say "oh hi" to the world, likely "hello world", source code avaialble.  
-[firmware/V20D-3P_volt_meter_blink_oHi.hex](V20D-3P_volt_meter_blink_oHi.hex)  
+[V20D-3P_volt_meter_blink_oHi.hex](firmware/V20D-3P_volt_meter_blink_oHi.hex)  
 
 voltage meter, no source code  
-[firmware/V20D-volt_meter_STM8S003F3_trimmed.s19](firmware/V20D-volt_meter_STM8S003F3_trimmed.s19)  
+[working no source code, V20D-volt_meter_STM8S003F3_trimmed.s19](firmware/V20D-volt_meter_STM8S003F3_trimmed.s19)  
 
 ### schematic
 [Stm8s-dev_schematic.pdf](Stm8s-dev_schematic.pdf)  
