@@ -1,5 +1,5 @@
 # STM8S003F3P6_V20D-3P-voltage_meter
-demo, MCU STM8S003F3P6, 3digit of 7-seg LED, adc demo, VD20 demo
+demo, MCU STM8S003F3P6, 3digit of 7-seg LED, adc demo, V20D demo
 
 C code
 [stm8s003_volt_adc.c](stm8s003_volt_adc.c)  
